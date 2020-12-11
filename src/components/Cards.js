@@ -11,9 +11,20 @@ function Cards() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem
-                            src='biteparty.jpeg'
+                            src='images/bitepartypng.jpg'
                             text="Find a great place to eat with all of your friends. It's a party!"
-                            label='restaurants'
+                            path='/biteparty'
+                        />
+
+                        <CardItem
+                            src='images/kasweb.png'
+                            text='Attract more customers to your business with a snazzy website. Welcome to KASWeb.'
+                            path='/kasweb'
+                        />
+
+                        <CardItem 
+                            src='images/zenith.png'
+                            text='Make sure you and your organizations can always connect with each other. Stay on top of things with Zenith.'
                             path='/zenith'
                         />
                     </ul>
