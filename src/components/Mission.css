@@ -1,0 +1,52 @@
+.ourmission {
+  display: flex;
+  height: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+h2 {
+  color: black;
+  font-size: 50px;
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+.ourmission1 {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  align-items: center;
+  font-size: 3rem;
+  position: relative;
+}
+
+.ourmission1 > p {
+  color: black;
+  font-size: 25px;
+  margin-top: 60px;
+  margin-left: 220px;
+  margin-right: 220px;
+  padding: 20px;
+}
+
+.ourteam {
+  display: flex;
+  height: 10vh;
+  margin-top: 100px;
+  justify-content: center;
+  font-size: 3rem;
+}
+.teamimages {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  border-radius: 50%;
+}
+.teamimages > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
