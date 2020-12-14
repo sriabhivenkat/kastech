@@ -6,7 +6,7 @@ import './Cards.css';
 function Cards() {
     return(
         <div className="cards">
-            <h4>Our Services</h4>
+            <h1>Our Services</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
