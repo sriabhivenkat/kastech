@@ -9,13 +9,14 @@ import Contact from './components/pages/Contact';
 import Kasweb from './components/pages/Kasweb';
 import Zenith from './components/pages/Zenith';
 import Our from './components/pages/Our';
-
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <>
       <Router>
         <Navbar />
+        <ScrollToTop />
         <Switch>
           <Route path='/' exact component={Home}/>
           <Route path='/apps' component={Our} />

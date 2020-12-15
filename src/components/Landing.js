@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import Button  from './Button';
 import './Landing.css';
 
 function Landing() {
@@ -15,7 +15,7 @@ function Landing() {
                 </Button>
             </div>
         </div>
-    )
+    );
 }
 
-export default Landing
+export default Landing;

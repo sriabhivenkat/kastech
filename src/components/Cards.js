@@ -30,6 +30,19 @@ function Cards() {
                     </ul>
                 </div>
             </div>
+
+            <h2>Company News</h2>
+            <div className="cards__container">
+                <div className="cards__wrapper">
+                    <ul className='cards__items'>
+                        <CardItem 
+                            src='images/kasweb.jpeg'
+                            text="KASWeb Releases. Check it out!"
+                            path='/kasweb'
+                        />
+                    </ul>
+                </div> 
+            </div>
         </div>
     )
 }

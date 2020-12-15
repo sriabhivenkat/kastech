@@ -1,0 +1,66 @@
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.purpose {
+  background: url("C:\Users\tosri\kastech\src\assets\computer-background.png")
+    center center/cover no-repeat;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}
+
+.purpose > h2 {
+  color: white;
+  font-size: 100px;
+}
+
+.purpose2 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.purpose2 > h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.purpose2 > p1 {
+  color: white;
+  font-size: 30px;
+  padding: 50px;
+  display: flex;
+  text-align: center;
+}
+
+.pricing-info {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  align-items: center;
+}
+
+.pricing-info > h4 {
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+mark.blue {
+  color: #f9706e;
+  background: none;
+}
+
+mark.green {
+  color: palegreen;
+  background: none;
+}

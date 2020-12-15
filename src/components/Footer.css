@@ -1,0 +1,22 @@
+.footer-container {
+  background-color: #d5dfed;
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-privacy-heading {
+  color: black;
+  margin-left: auto;
+  padding: 20px;
+  margin-right: auto;
+}
+
+.footer-container > .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: auto;
+}

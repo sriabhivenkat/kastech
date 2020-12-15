@@ -8,7 +8,8 @@
 
 .home,
 .aboutus,
-.contactus {
+.contactus,
+.kasweb {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -37,4 +38,8 @@
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
+}
+
+.kasweb {
+  background: url("assets/kasweb.jpeg") center center/cover no-repeat;
 }
