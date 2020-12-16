@@ -12,20 +12,14 @@ function Cards() {
                     <ul className="cards__items">
                         <CardItem
                             src='images/bitepartypng.jpg'
-                            text="Find a great place to eat with all of your friends. It's a party!"
+                            text="It's a party with Bite Party!"
                             path='/biteparty'
                         />
 
                         <CardItem
                             src='images/kasweb.png'
-                            text='Attract more customers to your business with a snazzy website. Welcome to KASWeb.'
+                            text='Introducing KASWeb. Attract more customers to your business with a snazzy website.'
                             path='/kasweb'
-                        />
-
-                        <CardItem 
-                            src='images/zenith.png'
-                            text='Make sure you and your organizations can always connect with each other. Stay on top of things with Zenith.'
-                            path='/zenith'
                         />
                     </ul>
                 </div>
@@ -39,6 +33,21 @@ function Cards() {
                             src='images/kasweb.jpeg'
                             text="KASWeb Releases. Check it out!"
                             path='/kasweb'
+                        />
+
+                        <CardItem 
+                            src='images/abhi.png'
+                            text="Employee of the Year for the 2nd Year in a row: Abhi Venkat"
+                        />
+
+                        <CardItem 
+                            src='images/paras3.png'
+                            text="Paras starts a frat, but doesn't have time for the company"
+                        />
+
+                        <CardItem 
+                            src="images/arvind.png"
+                            text="Arvind Balaji gets arrested for tax fraud."
                         />
                     </ul>
                 </div> 

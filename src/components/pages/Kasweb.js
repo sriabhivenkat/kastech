@@ -8,7 +8,6 @@ import Footer from '../Footer.js';
 function Kasweb() {
     return(
         <>
-            <div className='kasweb'></div>
             <Pricing />
             <Footer />
         </>

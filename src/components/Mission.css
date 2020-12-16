@@ -1,8 +1,10 @@
 .wrapper {
   background-color: black;
+  margin-left: auto;
+  margin-right: auto;
 }
 .ourmission {
-  background-color: black;
+  background: linear-gradient(#1502a4 10%, black);
   display: flex;
   height: 90vh;
   align-items: center;
@@ -13,15 +15,24 @@
 .ourmission1 {
   background-color: black;
   display: flex;
+  flex-direction: column;
   height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
-.ourmission > h3 {
+.ourmission1 > h3 {
+  color: white;
+  font-size: 75px;
+}
+
+.ourmission1 > p6 {
   color: white;
   font-size: 50px;
-  font-weight: bold;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .ourteam {
@@ -93,6 +104,8 @@ h5 {
   margin-right: auto;
 }
 
-.party {
+mark.party {
   color: #fb706e;
+  background: none;
+  padding: 20px;
 }

@@ -7,8 +7,11 @@ function Mission() {
         <>
             <div className='wrapper'>
                     <p className='ourmission'>Our mission is to improve
-                    people's lives through software that's fun and engaging.</p>
-                    <h3 className='ourmission1'>Our Motto? Have Fun.</h3>
+                    people's lives through fun and engaging software.</p>
+                    <div className='ourmission1'>
+                        <h3>Our Motto?</h3>
+                        <p6>Have fun!</p6>
+                    </div>
                     <h2 className='ourteam'>Our Team.</h2>
                     <div className='teamimages'>
                         <img src='images/kirthi.png' />

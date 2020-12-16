@@ -6,7 +6,6 @@ import Footer from '../Footer.js';
 function About() {
     return(
         <>
-            <h1 className='aboutus'>ABOUT US</h1>
             <Mission />
             <Footer />
         </>

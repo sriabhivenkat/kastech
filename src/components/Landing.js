@@ -7,7 +7,6 @@ function Landing() {
     return(
         <div className='landingcontainer'>
             <h1>CONNECTING THE WORLD</h1>
-            <p>idk what to put here</p>
             <div className='land-button'>
                 <Button className='btns' buttonStyle='btn--outline'
                 buttonSize='btn--large'>
