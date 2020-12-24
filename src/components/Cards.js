@@ -39,16 +39,6 @@ function Cards() {
                             src='images/abhi.png'
                             text="Employee of the Year for the 2nd Year in a row: Abhi Venkat"
                         />
-
-                        <CardItem 
-                            src='images/paras3.png'
-                            text="Paras starts a frat, but doesn't have time for the company"
-                        />
-
-                        <CardItem 
-                            src="images/arvind.png"
-                            text="Arvind Balaji gets arrested for tax fraud."
-                        />
                     </ul>
                 </div> 
             </div>
