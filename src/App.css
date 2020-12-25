@@ -6,6 +6,11 @@
   color: #fff;
 }
 
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 .home,
 .aboutus,
 .contactus,

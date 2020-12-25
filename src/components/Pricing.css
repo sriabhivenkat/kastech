@@ -1,22 +1,28 @@
 .wrapper {
   margin-left: auto;
   margin-right: auto;
+  padding: 5%;
 }
 
 .purpose {
-  background: url("C:\Users\tosri\kastech\src\assets\computer-background.png")
-    center center/cover no-repeat;
-  display: flex;
-  height: 90vh;
+  /* background: url("C:\Users\tosri\kastech\src\assets\computer-background.png")
+    center center/cover no-repeat; */
+  display: block;
+  /* height: 90vh; */
+  /* margin: 20vh 0; */
   justify-content: center;
   align-items: center;
   font-size: 100px;
 }
 
+.img {
+  max-width: 100vw;
+}
+
 .purpose > h2 {
   color: white;
   font-size: 100px;
-  display: inline-block;
+  /* display: inline-block; */
   overflow: hidden;
   border-right: 5px solid white;
   letter-spacing: 2px;
@@ -48,7 +54,8 @@
   background-color: black;
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  /* height: 90vh; */
+  margin: 20vh 0;
   align-items: center;
   justify-content: center;
 }
@@ -57,13 +64,16 @@
   color: white;
   font-weight: bold;
   font-size: 100px;
+  /* margin: 20vh 0; */
 }
 
 .purpose2 > p1 {
   color: white;
   font-size: 30px;
-  padding: 50px;
-  display: flex;
+  font-weight: 500;
+  padding: 50px 0;
+  max-width: 60vw;
+  /* display: flex; */
   text-align: center;
 }
 
@@ -71,7 +81,7 @@
   background-color: black;
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  /* height: 90vh; */
   align-items: center;
   justify-content: center;
   font-size: 30px;
@@ -83,10 +93,10 @@
 }
 
 .attack > p5 {
-  padding: 30px;
+  /* padding: 30px; */
   font-style: 30px;
-  margin-left: 420px;
-  margin-right: 420px;
+  padding: 50px 0;
+  max-width: 60vw;
   text-align: center;
 }
 
@@ -94,7 +104,7 @@
   background-color: black;
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  /* height: 90vh; */
   align-items: center;
 }
 

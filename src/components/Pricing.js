@@ -11,7 +11,7 @@ function Pricing() {
                 <div className='purpose'>
                     <h2>Welcome to your Internet.</h2>
                 </div>
-                <div className='purpose2'>
+                <div className='purpose2'style={{minHeight:'200px'}}>
                     <h3>You bring us the <mark className='green'>idea.</mark></h3>
                     <h3>We bring it to <b><mark className='blue'>life.</mark></b></h3>
                     <p1>With KASWeb, our skilled developers will build a website that is sure to increase your customers.</p1>
@@ -27,7 +27,7 @@ function Pricing() {
                     <h4>Pricing Structure</h4>
                     <img src='images/pricing_structure.jpeg' />
                     <p6>Quotes are also offered through e-mail contact. Click the button below if you would like a personalized quote.</p6>
-                    <Button2 className='btns' buttonStyle='btn--primary'
+                    <Button2  style={{margin: '20px'}} className='btns' buttonStyle='btn--primary'
                     buttonSize='btn--large'>
                         Contact Us.
                     </Button2>
