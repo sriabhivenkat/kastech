@@ -7,7 +7,10 @@ function Footer() {
     return(
         <div className='footer-container'>
             <section className="footer-privacy">
-                <img src='images/kastechtrans_50_1.png' />
+                <div style={{display: 'flex'}} className="image-container">
+                    <img src='images/kastechtrans_50_1.png' />
+                </div>
+                <div style={{display: 'flex'}} className="link-container">
                 <Link to='/privacy' className='footer-privacy-heading'>
                     Privacy
                 </Link>
@@ -17,8 +20,9 @@ function Footer() {
                 </Link>
 
                 <Link to='/aboutus' className='footer-privacy-heading'>
-                    About KASTech
+                    About
                 </Link>
+                </div>
             </section>
         </div>
     );
