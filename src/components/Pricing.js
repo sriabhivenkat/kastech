@@ -13,7 +13,7 @@ function Pricing() {
                 </div>
                 <div className='purpose2'>
                     <h3>You bring us the <mark className='green'>idea.</mark></h3>
-                    <h3>We bring it to <b><mark className='blue'>life.</mark></b></h3>
+                    <h3 >We bring it to <b><mark className='blue'>life.</mark></b></h3>
                     <p1>With KASWeb, our skilled developers will build a website that is sure to increase your customers.</p1>
                 </div>
 
@@ -24,10 +24,11 @@ function Pricing() {
 
                 
                 <div className='pricing-info'>
-                    <h4>Pricing Structure</h4>
-                    <img src='images/pricing_structure.jpeg' />
+                    <h4>Services</h4>
+                    <img className="price-table" src='images/pricing_structure2.png' />
+                    <img className="mobile-price-table" src='images/pricing_structure3.png' />
                     <p6>Quotes are also offered through e-mail contact. Click the button below if you would like a personalized quote.</p6>
-                    <Button2 className='btns' buttonStyle='btn--primary'
+                    <Button2  style={{margin: '100px'}} className='btns' buttonStyle='btn--primary'
                     buttonSize='btn--large'>
                         Contact Us.
                     </Button2>
